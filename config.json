@@ -9,6 +9,7 @@
             "Postprocessing" : "false" ,
             "Singleton" : "false"
         },
+        
         {
             "Path" : "ox",
             "Class" : "DNWS.OXPlugin",
@@ -20,6 +21,13 @@
             "Class" : "DNWS.DelayPlugin",
             "Preprocessing" : "false",
             "Postprocessing" :"false" 
+        },
+        {
+            "Path" : "clientinfo",
+            "Class" : "DNWS.ClientInfoPlugin",
+            "Preprocessing" : "true",
+            "Postprocessing" : "false" ,
+            "Singleton" : "false"
         }
     ]
 }
